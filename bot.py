@@ -31,9 +31,11 @@ while not buyButton:
         addToCartBtn = driver.find_element_by_class_name('btn-primary')   # element "btn-primary" is when it's in stock
         addToCartBtn.click()    # clicks the add to cart button 
         print('In stock!')
-        print("Added to cart")
+        print("Attempting to add to cart")
+        newBtn = driver.find_element_by_class_name('btn-primary')
+        newBtn.click
         buyButton = True       # ends the loop
-
+        
 driver.get("https://www.bestbuy.com/cart")  # cart button 
 
 time1()
