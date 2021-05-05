@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import Select
 driver = webdriver.Chrome("insert")     # file location
 
 driver.get('https://www.bestbuy.com/site/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/6439402.p?skuId=6439402')
-#https://www.bestbuy.com/site/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/6439402.p?skuId=6439402
 
 def time1():
     return time.sleep(1)
