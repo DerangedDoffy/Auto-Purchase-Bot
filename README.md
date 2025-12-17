@@ -1,1 +1,3 @@
+# Description
+
 This project is a Python automation script built with the Selenium library that monitors product availability on BestBuy.com and automatically proceeds through the checkout workflow once an item becomes available.
